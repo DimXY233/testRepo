@@ -11,18 +11,20 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/blog.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
+    rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Tangerine:wght@700&display=swap" rel="stylesheet">
-          
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&display=swap" rel="stylesheet">    
   </head>
 
   <body>
     <header>
       <div id="icon-logo-back">
-        <span id="icon-logo" class="material-icons">format_bold</span><span
-         class="title" id="cite-title">BLOG</span>
+        <a  href="blog.html">
+          <span id="icon-logo" class="material-icons">format_bold</span>
+        </a>
+        <span  class="title" id="cite-title">BLOG</span>
       </div>
   
       <div id="header-links">
@@ -30,9 +32,6 @@
         <a href="register.html">Register</a>
       </div>
   
-      <!-- <div id="icon-menu-back">
-        <span id="icon-menu" class="material-icons">menu</span>
-      </div> -->
     </header>
 
     <div class="blog-body">
@@ -63,16 +62,19 @@
             <div class="sch">
               <form id="sch" action="/search" method="get"><input value="" id="search_content" type="text" name="q"></form>
             </div>
-            <!-- <div class="sch-1 f-down"></div> -->
+
           </div>
           <div class="right">
             <div class="icon"></div>
           </div>
         </div>
+        <br>
         <div class="menu">
-          <div class="new">
-
-          </div>
+          <div class="m-icon">
+             <a href="newblog.html">
+              <div  class="new" id="new" >New Blog</div>
+             </a> 
+           </div>
           
         </div>
       </div>
@@ -97,6 +99,11 @@
               <div class="cnt box">
                 <div class="des-itle">
                   <h1>Title</h1>
+                </div>
+                <div class="pic">
+                  <div class="img">
+                    <img src="/img/img1.jpg">
+                  </div>
                 </div>
                 <div class="des">
                   <p>abcdefgabcdefgabcdefgabcde<br>fgabcdefgabcdefgabcdefgabcde<br>fgabcdefgabcdefgabcdefgabcdefg</p>

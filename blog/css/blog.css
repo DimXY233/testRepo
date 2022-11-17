@@ -5,6 +5,7 @@ div {
   display: block;
 }
 
+
 .m-sch div{-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;}
 .m-title div{-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;}
 .m-user .user,.m-user .user-1,.m-post .post,.m-post .post-1,.m-page div,.m-show .show,.m-show .show-1{-moz-border-radius:9px;-webkit-border-radius:9px;border-radius:9px;}
@@ -92,6 +93,7 @@ header {
     right: 15px;
     line-height: 50px;
     font-family: 'Lobster', cursive;
+    
   }
   
   #blog-list {
@@ -240,8 +242,8 @@ form {
 .m-post .dtil{position:absolute;left:-20px;top:20px;width:60px;}
 .m-post .dtil .time,.m-post .dtil .fav,.m-post .dtil .cmt{width:60px;height:43px;margin-bottom:7px;}
 .m-post .maj{font: 12px/150% "Hiragino Sans GB","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",tahoma,arial,simsun,"\5B8B\4F53";
-  width:50px;height:28px;padding:2px 5px 0;line-height:14px;    background-color: #c2aaf2;text-align:center;letter-spacing:0px;    border-radius: 3px;}
-.m-post .fav .maj,.m-post .cmt .maj{width:50px;padding:2px 0 0 10px;text-align:left;}
+  height:30px;line-height:14px;    background-color: #c2aaf2;text-align:center;letter-spacing:0px;    border-radius: 3px;}
+.m-post .fav .maj,.m-post .cmt .maj{padding:2px 0 0 10px;text-align:left;}
 .m-post .fav .maj{background-position:12px -21px;}
 .m-post .cmt .maj{background-position:12px -66px;}
 .m-post .time:hover .maj,.m-post .fav:hover .maj,.m-post .cmt:hover .maj{background-color:#a870cb;}
@@ -288,3 +290,37 @@ input {
 .m-sch .right{position:relative;float:right;width:31px;}
 .m-sch .icon{position:relative;width:31px;height:26px;background-color:#9b60c6;z-index:1;background-position:5px 3px;cursor: pointer; border-radius: 7px;}
 .m-sch .icon:hover{background-position:-29px 3px;}
+
+.menu{
+  margin-top: 20px;
+  position: relative;
+  width: 150px;
+  margin-bottom: 24px;
+}
+
+.new{
+  padding: 5px 5px;
+  width: 100%;
+  background-color: rgb(138, 113, 155);
+  border-radius: 7px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 0px;
+} 
+#new {
+  color: rgb(235, 218, 241);
+  text-decoration: none;
+}
+.new:hover{
+  background-color:#8e6996;
+  text-decoration: none;
+  
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
